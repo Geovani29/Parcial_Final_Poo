@@ -10,6 +10,6 @@ El usuario almacena lo que es el registro y el inicio de sesion.
 
 Vehiculo almacena lo que es cada tipo de vehiculo
 
-Espacios alamacena lo que son los espacios disponibles en el estacionamiento
+Espacios almacena lo que son los espacios disponibles en el estacionamiento
 
 y el code to run es lo que corre todo el programa.
