@@ -20,6 +20,7 @@ def main_menu() -> None:
         else:
             if(escogido == 2):
                 geovani.login()
+                parking.menu()
             else:
                 print("Error, ingresa otro valor(1 o 2)")
                 main_menu()
