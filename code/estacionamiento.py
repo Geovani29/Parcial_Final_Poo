@@ -1,5 +1,10 @@
 from espacios import Espacios
 from vehiculo import Compacto, Todoterreno, Furgoneta
+
+c1 = Compacto()
+c2 = Todoterreno()
+c3 = Furgoneta()
+
 class Estacionamiento(Espacios):
     def __init__(self, cupos: int) -> None:
         self.horario = list
