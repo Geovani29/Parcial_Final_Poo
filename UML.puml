@@ -1,0 +1,44 @@
+Class usuario{
+sign_in()
+login()
+}
+
+Class vehiculo{
+
+compacto()
+Todoterreno()
+Furgoneta()
+
+}
+
+Class estacionamiento{
+
+cobrar()
+menu()
+
+}
+
+
+Class espacios{
+
+iniciar()
+
+}
+
+Class code_to_run{
+
+main_menu()
+
+}
+
+espacios -->  estacionamiento
+
+usuario --> estacionamiento
+usuario --> vehiculo
+
+vehiculo -->  estacionamiento
+
+
+estacionamiento --> code_to_run
+
+@enduml
