@@ -3,7 +3,7 @@ from estacionamiento import Estacionamiento
 from vehiculo import Compacto, Todoterreno, Furgoneta
 
 geovani = Usuario()
-parking = Estacionamiento()
+parking = Estacionamiento(30)
 compact = Compacto()
 todoterreno = Todoterreno()
 furgoneta = Furgoneta()
